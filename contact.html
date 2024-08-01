@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="RxBot.png">
+    <meta property="og:title" content="RxBot">
+    <meta property="og:description" content="a powerful and versatile bot designed to enhance your Discord server experience.">
+    <meta property="og:url" content="https://rxdev.site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://rxdev.site/RxBot.png">
+    <title>RxBot | Contact Us</title>
+    <style>
+        /* Global Styles - Dark Mode */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #f0f0f0;
+        }
+
+        /* Header Styles - Dark Mode */
+        header {
+            background-color: #000000;
+            color: #f0f0f0;
+            padding: 15px 0;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            filter: drop-shadow(12px 8px 10px orange);
+            height: 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+
+        /* Contact Section - Dark Mode */
+        .contact {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #444;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            box-sizing: border-box;
+        }
+
+        .contact form input, .contact form textarea {
+            width: calc(100% - 20px); /* Ensure padding doesn't cause overflow */
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #555;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #555;
+            color: #f0f0f0;
+            box-sizing: border-box;
+        }
+
+        .contact form input[type="submit"] {
+            background-color: #ffa500;
+            color: #f0f0f0;
+            border: none;
+            cursor: pointer;
+            width: calc(100% - 20px); /* Ensure button width doesn't cause overflow */
+            padding: 10px;
+        }
+
+        .contact form input[type="submit"]:hover {
+            background-color: #e59400;
+        }
+
+        /* Footer Styles - Dark Mode */
+        footer {
+            background-color: #000000;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="RxBot.png" alt="RxBot Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Commands</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="blog.html">Updates</a></li>
+                <li><a href="status.html">Status</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to inquire about our bot or services, please fill out the form below, and we'll get back to you as soon as possible.</p>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2024 RxDev. All rights reserved. Made with 💖.</p>
+    </footer>
+</body>
+</html>
